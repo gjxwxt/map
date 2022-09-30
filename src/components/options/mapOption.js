@@ -27,6 +27,18 @@ export default {
             show:true
         },
         zoom:1.2,
+        // itemStyle: {
+        //     normal: {
+        //         borderWidth: .5, //区域边框宽度
+        //         borderColor: '#009fe8', //区域边框颜色
+        //         areaColor: "#1a364b", //区域颜色
+        //     },
+        //     emphasis: {
+        //         borderWidth: .5,
+        //         borderColor: '#4b0082',
+        //         areaColor: "#ffdead",
+        //     }
+        // },
         itemStyle: {
             normal: {
                 borderWidth: .5, //区域边框宽度

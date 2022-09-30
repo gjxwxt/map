@@ -1,7 +1,6 @@
 <template>
   <div style="position:relative;width: 500px;height: 500px;">
     <div class="hello" style="width:500px;height:500px;background-color: black;position: absolute;z-index: 1;">
-        
     </div>
     <div id="back" style="position:absolute;z-index:2;color:red;bottom: 25px;right: 25px;" v-show="show">返回</div>
   </div>
@@ -14,7 +13,7 @@
   import relation from '@/utils/codeToArea'
   let option = mapOption;
   //用于上行，保留父级的code和data（series.data）
-  let areaCode='370000';//'100000'
+  let areaCode='10000';//'100000'
   let dataPool=[];
   let areaLevel='china';
   let areaName='china';//进来默认是china，点击之后会修改，在dataPool中记录原来的值，点击返回时传入原来的areaName值进行渲染
@@ -58,7 +57,6 @@ export default {
           areaLevel='city'
         }
       }
-      console.log(areaName)
     },
 
     init(){
