@@ -1,4 +1,4 @@
-# avue
+# echart地图+i18n+virtualList+函数式组件
 
 ## Project setup
 ```
