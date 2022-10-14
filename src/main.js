@@ -8,8 +8,8 @@ import i18n from './i18n'
 import Vue from 'vue'
 import App from './App.vue'
 // import VueI18n from 'vue-i18n'
-// import i18n from './lang'
-// Vue.prototype.format = v => numFormat(v)
+// import i18n from './lang' 
+// Vue.prototype.format = v => numFormat(v)  //此时挂载的方法可以直接在template中使用
 Vue.prototype.$echarts = echarts
 // import Avue from '@smallwei/avue'
 // import '@smallwei/avue/lib/index.css'

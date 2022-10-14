@@ -19,7 +19,6 @@ let lang = localStorage.getItem('lang') ?? ''; //只有当前为null或者undefi
 let locale = lang == 'en_US' ? 'en' : 'zh';
 
 Vue.use(VueI18n)
-console.log(1)
 const i18n = new VueI18n({
     locale: locale, //设置默认语言
     messages,
